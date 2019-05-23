@@ -1,0 +1,98 @@
+### Scripts for estimating and handling diversity data
+
+
+
+
+### Getting Dxy per window estimates
+
+combineDxy.py
+'''
+The script reads ouput of calcDxy.R script (ngsTools) with dxy estimated per site.
+As a second input it reads ANGSD output with Fst estimated in windows.
+For a given size of windows it sums dxy for positions within a window
+and divides by the number of positions in the window estimated by ANGSD in Fst output.
+If number of sites is less than 50% of a window length, window is not printed.
+The script will read Fst file only if it was calculated for the same window size starting at position 1.
+'''
+
+USAGE:
+    
+python combineDxy.py
+requirements:
+<ame1_ame2>.Dxy_persite.txt
+<ame1.ame2>.fst.window
+
+output:
+<ame1.ame2>_window_Dxy.txt
+
+
+
+
+### Converting genotypes into major-minor allele
+
+convert2MajorMinor.py
+'''
+This script reads a table with SNPs with chromosome, position, allele frequency (AF) 
+and genotype coded as 0, 1 or ./. for missing data. 
+According to AF it converts the genotype to F (frequent - major allele), R (rare - minor allele).
+'''
+
+USAGE:
+
+python convertMajor2Minor.py
+
+requirements:
+genotypes1.tab
+
+output: 
+convert2MajorMinor.tab
+
+
+
+
+### Plottig heatmap of genotypes
+
+plotGenotypesHeatMap.R
+'''
+Script reads a table with SNPs and genotypes for multiple samples,
+plots a heatmap with genotypes and performs clustering with hclust.
+It also reads a file with sample names in the same order as they appear in the table.
+'''
+
+requirements:
+convert2MajorMinor.tab
+strains_vcf_order.txt
+
+output:
+plotGenotypesHeatmap.pdf
+strains_hclust_order.txt
+
+
+
+
+### Plotting distribution of diversity in 50 kb windows
+
+plotDiversityDist.R
+'''
+Script reads files with estimates of nucleotide diversity in 50 kb windows 
+and plots distribution of estimates for each lineage
+'''
+
+requirements:
+Windows_Statistics.txt
+
+
+
+
+### Plotting diversity/divergence correlations
+
+calculateCorrelations.R
+'''
+Script reads table with estimates of diversity (Pi) and divergence (Dxy and Fst),
+calculates and plots correlations
+'''
+
+requirements:
+Windows_Statistics.txt
+
+

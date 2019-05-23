@@ -1,0 +1,28 @@
+### Scripts for plotting estimates of diversity and divergence in 50 kb windows across the genome + tree weighting analysis
+
+
+
+### Plotting tree weighting, Pi and Dxy
+
+plotAngsdWindows_short_Pi_Dxy.R
+
+requirements:
+./data/output.weights.csv  		# results of tree weighting analysis
+./data/formatBed_cumulated.tsv		# coordinates of windows for tree weighting analysis
+./data/<ame1>_circos_tP.txt		# Pi for lineage
+./data/<ame1.ame2>_circos_Dxy.txt	# Dxy for lineage
+
+
+
+### Plotting tree weighting, Tajima's D and Fst	
+
+plotAngsdWindows_short_Fst_Taj.R
+
+requirements:
+./data/output.weights.csv  		# results of tree weighting analysis
+./data/formatBed_cumulated.tsv		# coordinates of windows for tree weighting analysis
+./data/<ame1>_circos_Tajima.txt		# Tajima for lineage
+./data/<ame1.ame2>_circos_FstW.txt	# Fst for lineage
+
+
+

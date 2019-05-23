@@ -1,0 +1,15 @@
+### Scripts for running PCA analysis for each window across the genome
+
+
+runPCA.R
+'''
+Script reads file with genotypes for a window/region, table with population information, file with list of samples,
+and order of labels, carries out a PCA analysis and determines a distance of each strain from ULM
+'''
+
+
+requirements:
+OphioH327chr_1_0a.raw		# genotypes for all strains for a window/region
+Species_distinction_PCA.txt	# population info
+plotLabelOrder_2.txt		# order of labels
+Raw_label			# strain names

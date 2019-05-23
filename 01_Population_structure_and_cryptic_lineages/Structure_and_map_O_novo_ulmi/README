@@ -1,0 +1,26 @@
+### Plotting results of structure analysis in O. novo-ulmi
+
+
+### Plotting structure results for K = 3 on a map
+
+plotStructureMap.R
+
+requirements:
+Pipie.R				# Script for plotting piecharts
+world_intermediate.txt		# World map borders
+Liste_finale_plaque1_LN2.txt	# Coordinates of strains
+k3.csv				# Results of structure
+
+
+
+### Plotting strcuture barplots for different K
+
+plotStructure_novoulmi.R
+
+requirements:
+Structure_genomewide_results_novoulmi_K2.csv 	# results of strcuture
+Structure_genomewide_results_novoulmi_K3.csv 	# results of strcuture
+Structure_genomewide_results_novoulmi_K4.csv 	# results of strcuture
+Structure_genomewide_results_novoulmi_K5.csv 	# results of strcuture
+strains_pops.txt				# lineage membership
+

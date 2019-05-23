@@ -1,0 +1,41 @@
+### Plotting Figure 1
+
+
+a. Plot of a map with strains
+
+map_geo.R
+
+requirements:
+Liste_finale_plaque1_LN2.txt
+world_intermediate.txt
+
+
+b. Plot of ML phylogeny
+
+plotTree.py
+
+requirements:
+Newick_Export_ordered_root_75coll.nwk
+Species_distinction_PCA.txt
+
+
+b. Plot of structure
+
+plotStrcuture.R
+
+requirements:
+Structure_genomewide_results_K2.csv
+Structure_genomewide_results_novoulmi_K2.csv
+Structure_genomewide_results_novoulmi_K3.csv
+Species_distinction_PCA.txt
+
+
+c-d. Plots of PCA
+
+PCA_Plot.R
+
+requirements:
+Species_distinction_PCA.txt
+scores_pca.txt
+
+

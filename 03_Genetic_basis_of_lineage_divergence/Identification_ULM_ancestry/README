@@ -1,0 +1,48 @@
+### Scripts for detection of small-scale introgression of ULM to O. novo-ulmi based on tree topology
+
+
+### Identifying strains with ULM ancestry
+
+filter_ULMLike.py
+'''
+This script reads trees in newick format, separates strains into Ophiostoma lineages, 
+and identifies O. novo-ulmi strains which cluster together with O. ulmi,
+to be later filtered out from fasta alignments
+'''
+
+
+USAGE:
+
+python filter_ULMLike.py
+
+requirements:
+Species_distinction_PCA.txt			# file with population info
+RAxML_bipartitions_50coll.Gene_<gene_name>	# example trees
+
+output:
+plotTree_good_novoulmi.csv			# list of strains excluding O. novo-ulmi with ULM ancestry
+plotTree_bad_novoulmi.csv			# list of O. novo-ulmi strains with ULM ancestry 
+plotTree_pop_counts.txt			# count of strains per lineage after filtering
+
+
+
+### Filtering fasta alignments
+
+filterFasta.py
+'''
+This script reads fasta alignments and a table with list of strains to select 
+from each alignment, and filters out only strains which are in the list.
+'''
+
+USAGE:
+
+python filterFasta.py
+
+requirements:
+plotTree_good_novoulmi.csv				# list of strains excluding O. novo-ulmi with ULM ancestry
+jgi.p|Ophnu1|<gene_name>_OphioH327chr_1_flt.fasta	# fasta alignment
+
+output:
+Gene_<gene_name>.fasta
+
+

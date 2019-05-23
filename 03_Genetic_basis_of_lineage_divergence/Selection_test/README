@@ -1,0 +1,22 @@
+### running Snipre analysis and plotting results
+
+
+### Running snipre (scripts downloaded from https://bustamantelab.stanford.edu/sites/g/files/sbiybj9896/f/snipre_code_jags.zip)
+
+SnIPRE_running_script_Ophiostoma.R
+
+requirements:
+B_SnIPRE_source.R
+SnIPRE.bug
+my.jags2.R
+data_8432_genes.txt  	# input data
+
+
+
+### Plotting results
+
+plotSnipreResults.R
+
+requirements:
+Input_snipre_8379_bayesian_results_50k.csv 	# table with snipre results
+

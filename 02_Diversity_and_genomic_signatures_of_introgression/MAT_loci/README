@@ -1,0 +1,21 @@
+### Scripts for plotting evidence for admixture around mating types
+
+
+### Plotting coverage and admixture around mating types
+
+plotDepth_heatmap.R
+
+requirements:
+strains_lineage_order.txt 	# list of strains in the order of appearance
+MAT_loci_depth.txt 		# table with coverage depth for each mating type
+collectWindow_changedNames.out 	# structure results for mating type region
+
+
+
+### Plotting phylogenetic trees around mating types
+
+plotTree_MAT.py
+
+requirements:
+RAxML_bipartitions_50coll.Gene_1981842_OphioH327chr_2 	# tree in newick format
+Species_distinction_PCA.txt				# file with lineage info

@@ -1,0 +1,36 @@
+### Conversion of variants from vcf file into fasta alignment and plotting a tree
+
+
+### Conversion of vcf to fasta
+
+writeVcfToFasta.py
+'''
+This script reads vcf with SNPs, and a file with population info,
+converts genotypes to fasta alignment and filters positions with any missing data.
+'''
+
+USAGE:
+    
+python writeVcfToFasta.py
+
+requirements:
+SNP_samtools_mtDNA_variants_filter2_miss.recode.vcf
+Species_distinction_PCA.txt
+output:
+SNP_samtools_mtDNA_noMD.phy
+
+
+
+
+### Plotting tree from newick format
+
+USAGE:
+
+python drawTree.py
+
+requirements:
+RAxML_bipartitions_50coll.mtDNA		# tree in newick format
+Species_distinction_PCA.txt		# Population info
+
+output:
+mtDNATree.pdf

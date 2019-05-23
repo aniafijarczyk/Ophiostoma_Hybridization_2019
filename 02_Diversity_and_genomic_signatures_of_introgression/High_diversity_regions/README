@@ -1,0 +1,21 @@
+### Scripts for detecting high diversity regions across the genome
+
+
+bootstrapPi.py
+'''
+This script reads a table with per site estimates of Pi, performs reshuffling 
+of all positions in the genome and recalulates Pi for each window;
+after x times, 95th and 99th percentile of bootstrapped Pi distribution is obtained
+'''
+
+USAGE:
+    
+python bootstrapPi.py
+
+requirements:
+sample_table_tP_persite.txt 	# a sample table with per-site estimates of Pi across the whole genome
+
+output:
+bootstrapPi.out
+
+

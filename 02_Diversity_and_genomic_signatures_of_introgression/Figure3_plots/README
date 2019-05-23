@@ -1,0 +1,16 @@
+### Script for plotting ULM ancestry, diversity within, divergence between lineages and targets of positive selection
+
+
+plotTargetsAndDiversity.R
+
+
+requirements:
+combineTables_AME1.txt 		# Table with diversity estimates in 50 kb windows
+combineTables_AME2.txt 		# Table with diversity estimates in 50 kb windows
+combineTables_NOV.txt 		# Table with diversity estimates in 50 kb windows
+createTable.txt			# Table with frequency of ULM ancestry in O. novo-ulmi in 50 kb windows
+createBed_targets_count.bed	# Table with counts of targets under selection in 50 kb windows
+combineTables.csv		# Dxy estimates in genes
+
+
+

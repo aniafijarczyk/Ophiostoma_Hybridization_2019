@@ -1,0 +1,21 @@
+### Sripts for running and plotting DAPC analysis using CNVs, and plotting DAPC analysis using SNP data
+
+
+### Analysis + plot of DAPC for CNVs
+
+plotDAPC_CNV.R
+
+requirements: 	
+filtered_0.2-himal.gt.vcf
+Species_distinction_PCA.txt
+
+
+
+### plotting of DAPC results for SNP data
+
+
+plotDAPC_SNP.R
+
+requirements:
+Ind_coord_dapcsamtools4.txt
+Species_distinction_PCA.txt

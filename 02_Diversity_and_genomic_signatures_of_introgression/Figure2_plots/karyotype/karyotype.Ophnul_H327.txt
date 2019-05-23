@@ -1,0 +1,8 @@
+chr - OphioH327chr_1 chr1 0 6938000 chr1
+chr - OphioH327chr_2 chr2 0 6818000 chr2
+chr - OphioH327chr_3 chr3 0 3670000 chr3
+chr - OphioH327chr_4 chr4 0 3420000 chr4
+chr - OphioH327chr_5 chr5 0 2849000 chr5
+chr - OphioH327chr_6 chr6 0 2802000 chr6
+chr - OphioH327chr_7 chr7 0 2758000 chr7
+chr - OphioH327chr_8 chr8 0 2531000 chr8

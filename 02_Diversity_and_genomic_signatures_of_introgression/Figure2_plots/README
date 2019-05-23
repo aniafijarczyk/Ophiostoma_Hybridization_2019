@@ -1,0 +1,35 @@
+### Scripts for plotting Figure 1 (a, b and d)
+
+
+### A matrix of global and per-window distances and diversity in Ophiostoma lineages.
+
+plotMatrix.R
+
+requirements:
+matrix_global_estimates.txt
+matrix_window_estimates.txt
+
+
+
+### Dotplot with standard errors of D-statistic
+
+plot_Dstatistic.R
+
+requirements:
+Dstats_results.txt
+
+
+
+### Circos plot with PCA in windows and tree weighting
+
+mk_circos.sh
+
+requirements:
+config_PCA.conf 				# configuration file with circos plot
+ideogram_1.conf 				# configuration file with ideogram
+ticks_1.conf    				# configurarion file with ticks
+./karyotype/karyotype.Ophnul_H327.txt 		# configuration file with chromosomes
+./data/PCA_PC1_ulmi_novsp/*.txt			# PCA results for each strain
+./data/TreeTopGenome_BlackTopos_subselect.txt	# Results of tree weighting
+./data/genes_MAT.txt				# Position of MAT-1 loci
+./data/genes_vic.txt				# Position of vic genes

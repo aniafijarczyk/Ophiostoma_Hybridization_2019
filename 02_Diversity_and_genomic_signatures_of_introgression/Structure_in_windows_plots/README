@@ -1,0 +1,13 @@
+### Scripts for genrating circos plots with results of Strcuture in windows analysis
+
+mk_circos.sh
+
+
+requirements:
+config_StructureK2.conf 				# configuration file for k = 2 clusters
+config_StructureK2mixte.conf				# configuration file for mixed number of clusters
+ideogram_1.conf						# configuration file with ideogram
+ticks_1.conf						# configuration file with ticks
+./karyotype/karyotype.Ophnul_H327.txt			# chromosomes info
+./data/StructureSamtools_K2_ulmi_novsp/*.txt		# table with strain membership across genomic windows
+./data/StructureSamtools_K2mixte_ulmi_novsp/*.txt	# table with strain membership across genomic windows
