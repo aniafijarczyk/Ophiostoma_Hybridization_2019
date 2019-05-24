@@ -4,21 +4,12 @@
 #
 # Image analyses for Ophiostoma 
 #
-# usage:
-# Ophiotoma_image2shape_8pos f=~/Dropbox/Postdoc/Ophiostoma/Test_2_Robot_batch73/d000073_220_002_18-05-24_11-46-20.JPG
-#
-#
 
 
 
 library(EBImage)
 library(dplyr)
 
-#argz <- commandArgs()
-
-# f = "/Users/Lenou/Dropbox/Postdoc/Ophiostoma/Test_2_Robot_batch73/d000073_220_001_18-05-23_11-45-37.JPG"
-
-#f = "~/Dropbox/Postdoc/Ophiostoma/Test_2_Robot_batch73/d000073_220_002_18-05-24_11-46-20.JPG"
 
 Ophiotoma_image2shape_8pos_PixIntens <- function(f){
 
