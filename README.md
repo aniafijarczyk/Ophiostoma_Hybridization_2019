@@ -66,14 +66,15 @@
 - SnIPRE_running_script_Ophiostoma.R	# running snipre program to detect genes under selection
 - plotSnipreResults.R			# plotting snipre results
 
+**Genetic diversity and divergence**
+- diversity_divergence_stats_popgenome.R	# calculating diversity/divergence in genes
+
 ### 04_Phenotypic_differences_between_lineages
 **Processing pictures and extracting growth information**
-- Ophiotoma_image2shape_8pos_Area.R # creating a function to process images
-- launchScript.R # launching the function on each pictures
-
-**Statistical modeling**
-- TBD # 
+- Ophiotoma_image2shape_8pos_Area.R 	# creating a function to process images
+- launchScript.R 			# launching the function on each pictures
 
 **Plotting isolates growth in each media and temperature**
-- TBD #
+- fig4.R	# plotting growth results
+
 
