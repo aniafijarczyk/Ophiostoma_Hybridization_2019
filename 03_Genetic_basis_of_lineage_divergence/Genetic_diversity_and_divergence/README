@@ -1,0 +1,12 @@
+### Script for estimating population genetics statistics in genes
+
+diversity_divergence_stats_popgenome.R
+'''
+This scrip reads gene sequences in fasta format and calculates different statistics for each gene
+'''
+
+
+requirements:
+population_diversity.txt	# file with pop info
+FASTA_examples			# folder with gene fasta files
+
