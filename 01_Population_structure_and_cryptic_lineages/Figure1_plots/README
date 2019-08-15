@@ -1,16 +1,25 @@
 ### Plotting Figure 1
 
 
-a. Plot of a map with strains
+a. Simulate coordinates of labels on the map
+
+simulate_point_locations.R
+
+requirements:
+samples_locations.txt
+
+
+b. Plot of a map with strains
 
 map_geo.R
 
 requirements:
-Liste_finale_plaque1_LN2.txt
+samples_locations.txt
+simulated_coords.txt
 world_intermediate.txt
 
 
-b. Plot of ML phylogeny
+c. Plot of ML phylogeny
 
 plotTree.py
 
@@ -19,7 +28,7 @@ Newick_Export_ordered_root_75coll.nwk
 Species_distinction_PCA.txt
 
 
-b. Plot of structure
+d. Plot of structure
 
 plotStrcuture.R
 
@@ -30,7 +39,7 @@ Structure_genomewide_results_novoulmi_K3.csv
 Species_distinction_PCA.txt
 
 
-c-d. Plots of PCA
+d-e. Plots of PCA
 
 PCA_Plot.R
 
