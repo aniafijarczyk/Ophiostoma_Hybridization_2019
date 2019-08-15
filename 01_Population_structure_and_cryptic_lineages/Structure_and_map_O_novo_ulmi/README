@@ -3,12 +3,19 @@
 
 ### Plotting structure results for K = 3 on a map
 
+simulate_point_locations.R	# script for simulating coordinates of labels so they do not overlap
+
+requirements:
+samples_locations.txt	# Coordinates of strain locations
+
+
 plotStructureMap.R
 
 requirements:
 Pipie.R				# Script for plotting piecharts
 world_intermediate.txt		# World map borders
-Liste_finale_plaque1_LN2.txt	# Coordinates of strains
+samples_locations.txt		# Coordinates of strains
+simulated_coords.txt		# Simulated coordinates of strain labels
 k3.csv				# Results of structure
 
 
