@@ -12,7 +12,7 @@
 - simulate_point_locations.R	# simulating coordinates of point labels
 - map_geo.R  			# plotting a map with strains
 - plotTree.py  			# plotting ML phylogeny
-- plotStructure.R  		# plotting strcuture analysis
+- plotStructure.R  		# plotting structure analysis
 - PCA_Plot.R  			# plotting PCA results
 
 **Mitochondrial_DNA**
@@ -20,6 +20,7 @@
 - drawTree.py		# plotting mtDNA tree
 
 **Strcuture_and_map_O_novo_ulmi**
+- simulate_point_locations.R    # simulating coordinates of point labels
 - plotStructureMap.R		# plotting structure results for K = 3 on a map
 - plotStructure_novoulmi.R	# plotting strcuture barplots for different K
 
