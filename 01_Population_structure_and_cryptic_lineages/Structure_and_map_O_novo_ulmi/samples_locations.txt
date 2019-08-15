@@ -1,0 +1,98 @@
+Isolate	Species	Location	Country	Latitude	Longitude	Year	Lineage	ID
+782401	O. novo-ulmi subspecies novo-ulmi	NA	France	45.146949	0.757221	1978	AME1	1
+785401	O. ulmi	NA	France	48.799701	6.094701	1978	OU	2
+04_51	O. ulmi s.l.	Madison, WI	USA	43.073052	-89.40123	2004	AME2	3
+04_52	O. ulmi s.l.	Fox Point, WI	USA	43.15751	-87.901753	2004	AME2	4
+04_54	O. ulmi s.l.	Madison, WI	USA	43.073052	-89.40123	2004	AME2	5
+04_544	O. ulmi s.l.	North Dakota	USA	47.551493	-101.002012	NA	AME2	6
+04_55	O. ulmi s.l.	Fox Point, WI	USA	43.15751	-87.901753	2004	AME1	7
+04_56	O. ulmi s.l.	Madison, WI	USA	43.073052	-89.40123	2004	AME2	8
+04_58	O. ulmi s.l.	Dane, WI	USA	43.018607	-89.549763	2004	AME2	9
+04_65	O. novo-ulmi subspecies americana	Madison, WI	USA	43.073052	-89.40123	2004	AME2	10
+AT146	ONUnu/ONUam	Güssing	Austria	47.05932	16.32449	1999	NOV	11
+AT83	ONUnu/ONUam	Landeck	Austria	47.14057	10.56558	1997	NOV	12
+BP14	O. novo-ulmi subspecies novo-ulmi	Vienne	Austria	48.208174	16.373819	2000	NOV	13
+BP18	O. novo-ulmi subspecies novo-ulmi	Vienne	Austria	48.208174	16.373819	2000	AME1	14
+C115	O. novo-ulmi subspecies americana	California	USA	36.778261	-119.417932	1985	AME2	15
+C510	O. ulmi s.l.	Ames, IA	USA	42.030781	-93.631913	1982	AME2	16
+C511	O. ulmi s.l.	Nevada, IA	USA	42.022718	-93.452301	1982	AME2	17
+C513	O. ulmi s.l.	Colo, IA	USA	42.017765	-93.315207	1982	AME2	18
+C514	O. ulmi s.l.	Centerville, IA	USA	40.72972	-92.87194	1982	AME2	19
+CKT4	O. novo-ulmi subspecies novo-ulmi	Chachkam Forest	Iran	36.3464054	53.2840595	1977	NOV	20
+DDS100	O. novo-ulmi subspecies americana	Katepwa, SK	Canada	50.700677	-103.625714	1980	AME1	21
+DDS154	O. novo-ulmi subspecies americana	Tisdale, SK	Canada	52.847396	-104.048984	1980	AME2	22
+DDS170	O. novo-ulmi subspecies americana	Indian Head, SK	Canada	50.533357	-103.669901	1980	AME2	23
+DDS202	O. novo-ulmi subspecies americana	Buffalo Pound Lake, SK	Canada	50.648171	-105.508275	1980	AME2	24
+DDS239	O. ulmi s.l.	Crooked Lake Povincal Park, SK	Canada	50.605285	-102.67239	1980	AME1	25
+DDS241	O. ulmi s.l.	Katepwa, SK	Canada	50.700677	-103.625714	1980	AME1	26
+DDS25	O. novo-ulmi subspecies americana	Saskatchewan	Canada	50.391581	-105.534856	1980	AME2	27
+DDS257	O. ulmi s.l.	NA	NA	NA	NA	1980	NOV	28
+DDS296	O. ulmi s.l.	Flowering Springs, ON	Canada	44.968609	-76.714784	1980	AME2	29
+DDS298	O. ulmi s.l.	Truax, SK	Canada	49.901619	-104.947141	1980	AME2	30
+DDS81	O. novo-ulmi subspecies americana	Gainsborough, SK	Canada	49.177356	-101.449173	1980	AME1	31
+DDS82	O. novo-ulmi subspecies americana	Regina, SK	Canada	50.445211	-104.618894	1980	AME2	32
+DDS93	O. novo-ulmi subspecies americana	Estevan, SK	Canada	49.139084	-102.991481	1980	AME1	33
+ES130	O. novo-ulmi subspecies americana	NA	Spain	40.463667	-3.74922	NA	AME1	34
+H1018	O. ulmi	Quebec	Canada	46.813878	-71.207981	1986	OU	35
+H1021	O. ulmi	Quebec	Canada	46.813878	-71.207981	1986	OU	36
+H1022	O. ulmi	Quebec	Canada	46.813878	-71.207981	1986	OU	37
+H1096	O. ulmi	NA	Norway	60.472024	8.468946	1986	OU	38
+H2062	O. ulmi	NA	United Kingdom	55.378051	-3.435973	1986	OU	39
+H2083	O. novo-ulmi subspecies americana	Madison, WI	USA	43.073052	-89.40123	1989	AME2	40
+H2086	O. novo-ulmi subspecies americana	St. Paul, MN	USA	44.953703	-93.089958	1989	AME2	41
+H2091	O. novo-ulmi subspecies americana	Delaware, OH	USA	40.298672	-83.067965	1989	AME1	42
+H2095	O. novo-ulmi subspecies americana	Delaware, OH	USA	40.298672	-83.067965	1989	AME1	43
+H2098	O. novo-ulmi subspecies americana	Virginia	USA	37.431573	-78.656894	1993	AME2	44
+H234D	O. novo-ulmi subspecies americana	Rosenheim	Germany	47.8571272	12.1181047	1978	AME1	45
+H239	O. novo-ulmi subspecies americana	Seefeld	Austria	47.330002	11.187774	1978	AME2	46
+H248	O. novo-ulmi subspecies americana	Kampen	Netherlands	52.557964	5.914462	1978	AME2	47
+H260	O. novo-ulmi subspecies novo-ulmi	Moscow	Russia	55.755826	37.6173	1986	NOV	48
+H276	O. novo-ulmi subspecies novo-ulmi	NA	Bulgaria	42.733883	25.48583	1986	NOV	49
+H294	O. novo-ulmi subspecies novo-ulmi	NA	Ireland	53.41291	-8.24389	1986	NOV	50
+H295	O. novo-ulmi subspecies americana	NA	Ireland	53.41291	-8.24389	1986	AME1	51
+H312	O. novo-ulmi subspecies americana	Gironde	France	46.450237	-0.450237	1979	AME1	52
+H323	O. novo-ulmi subspecies novo-ulmi	Palarikovo	Slovakia	48.040525	18.070892	1979	NOV	53
+H328	O. novo-ulmi subspecies novo-ulmi	Charkov	Russia	53.703918	90.382584	1979	NOV	54
+H332	O. novo-ulmi subspecies novo-ulmi	NA	Denmark	56.26392	9.501785	1986	NOV	55
+H337	O. ulmi	NA	Denmark	56.26392	9.501785	1986	OU	56
+H340	O. novo-ulmi subspecies americana	Horsens	Denmark	55.85813	9.847588	1979	AME1	57
+H346	O. novo-ulmi subspecies novo-ulmi	Bolu	Turkey	40.732541	31.608209	1979	NOV	58
+H359	O. ulmi	NA	Belgium	50.503887	4.469936	1986	OU	59
+H371	O. novo-ulmi subspecies novo-ulmi	Rhenen	Netherlands	51.9621397	5.5711155	1980	NOV	60
+H379	O. ulmi	NA	Netherlands	52.132633	5.291266	1986	OU	61
+H413a	O. novo-ulmi subspecies novo-ulmi	Berlin	Germany	52.520007	13.404954	1980	NOV	62
+H618	O. novo-ulmi subspecies americana	Falkenberg	Sweden	56.902733	12.488801	1981	AME1	63
+H623	O. novo-ulmi subspecies americana	Jersey	United Kingdom	49.214439	-2.13125	1981	AME1	64
+H648	O. novo-ulmi subspecies novo-ulmi	Tashkent	Uzbekistan	41.2994958	69.2400734	1981	NOV	65
+H649	O. ulmi	NA	Sweden	60.128161	18.643501	1979	OU	66
+H809	O. ulmi	Vermont	USA	44.558803	-72.577841	1986	OU	67
+H864	O. ulmi	NA	USA	37.09024	-95.712891	1986	OU	68
+H868	O. ulmi	Granville, OH	USA	40.0675	-82.51222	1986	OU	69
+H871	O. ulmi	Nictaux Falls, NS	Canada	44.921677	-65.045306	1986	OU	70
+H872	O. ulmi	Fort Lennox, QC	Canada	45.120926	-73.267994	1986	OU	71
+H873	O. ulmi	New London, CT	USA	41.355654	-72.099521	1986	OU	72
+H909	O. novo-ulmi subspecies novo-ulmi	NA	Greece	39.074208	21.824312	1986	OU	73
+H924	O. ulmi	Northford, CT	USA	41.39358	-72.791658	1986	OU	74
+H986	O. novo-ulmi subspecies novo-ulmi	Tbilisi	Republik of Georgia	41.715138	44.827096	1986	NOV	75
+HP30	O. himal-ulmi	Solang Ghati	India	32.323026	77.156425	2000	OHU	76
+HP31	O. himal-ulmi	Solang Ghati	India	32.323026	77.156425	2001	OHU	77
+HP32	O. himal-ulmi	Solang Ghati	India	32.323026	77.156425	2002	OHU	78
+I131	O. ulmi	Cassino	Italy	41.490789	13.833378	1986	OU	79
+I185	O. ulmi	San Cipirello	Italy	37.9352706	13.1798024	1979	OU	80
+NZFS184C	O. novo-ulmi subspecies novo-ulmi	Auckland	New Zealand	-36.84846	174.763332	1991	AME1	81
+NZFS601	O. ulmi s.l.	Auckland	New Zealand	-36.84846	174.763332	2001	AME1	82
+P114	O. novo-ulmi subspecies novo-ulmi	Troszyn	Poland	53.843848	14.716503	1980	NOV	83
+P122	O. novo-ulmi subspecies novo-ulmi	Swinoujscie	Poland	53.910033	14.247578	1980	NOV	84
+PG40	O. novo-ulmi subspecies novo-ulmi	NA	Italy	39.399872	8.224454	NA	OU	85
+R108	O. novo-ulmi subspecies novo-ulmi	Maghera, Dorohoi	Romania	47.954921	26.401209	1980	NOV	86
+R22	O. novo-ulmi subspecies novo-ulmi	NA	Romania	45.943161	24.96676	NA	NOV	87
+R69	O. novo-ulmi subspecies novo-ulmi	Filipesti	Romania	46.742519	26.887945	1993	NOV	88
+TB2	O. novo-ulmi subspecies americana	Thunder Bay, ON	Canada	48.380895	-89.247682	2004	AME2	89
+TB5	O. novo-ulmi subspecies americana	Thunder Bay, ON	Canada	48.380895	-89.247682	2004	AME2	90
+TR67	O. novo-ulmi subspecies novo-ulmi	NA	Turkey	38.963745	35.243322	1987	NOV	91
+TR88	O. novo-ulmi subspecies novo-ulmi	Gumushane	Turkey	40.460825	39.480321	1987	NOV	92
+US137	O. novo-ulmi subspecies americana	Uniondale, IN	USA	40.830603	-85.241638	1986	AME1	93
+V14	O. novo-ulmi subspecies novo-ulmi	Volvograd	Russia	48.708048	44.513303	1986	NOV	94
+V19	O. novo-ulmi subspecies novo-ulmi	Volvograd	Russia	48.708048	44.513303	1986	NOV	95
+Yu141	O. novo-ulmi subspecies novo-ulmi	Skopje	Macedonia	41.9973462	21.4279956	1980	NOV	96
+Yu16	O. novo-ulmi subspecies novo-ulmi	Jastrebarsko	Croatia	45.6717716	15.6507903	1980	NOV	97
