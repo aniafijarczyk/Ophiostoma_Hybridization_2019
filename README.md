@@ -9,10 +9,11 @@
 - plotDAPC_CNV.R  # plotting DAPC analysis based on CNV variants
 
 **Figure1_plots:**
-- map_geo.R  		# plotting a map with strains
-- plotTree.py  		# plotting ML phylogeny
-- plotStrcuture.R  	# plotting strcuture analysis
-- PCA_Plot.R  		# plotting PCA results
+- simulate_point_locations.R	# simulating coordinates of point labels
+- map_geo.R  			# plotting a map with strains
+- plotTree.py  			# plotting ML phylogeny
+- plotStructure.R  		# plotting strcuture analysis
+- PCA_Plot.R  			# plotting PCA results
 
 **Mitochondrial_DNA**
 - writeVcfToFasta.py	# conversion of vcf to fasta
