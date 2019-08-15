@@ -40,6 +40,7 @@
 - plotMatrix.R		# plotting a matrix of global and per-window distances and diversity in Ophiostoma lineages
 - plot_Dstatistic.R	# dotplot with standard errors of D-statistic
 - mk_circos.sh		# script for plotting circos chronogram
+
 **Figure3_plots**
 - plotTargetsAndDiversity.R	# plotting ULM ancestry, diversity within, divergence between lineages and targets of positive selection across the genome
 
