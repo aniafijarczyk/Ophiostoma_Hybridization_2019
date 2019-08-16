@@ -37,11 +37,16 @@ Languages and packages
 ----------------------
 |Package|Version|Description|URL|
 |:------|:-----:|:----------|:--|
-|**python v2.7/v3.6**|||
+|**python**|**v2.7/v3.6**||
 |ETE|v3|Analysis and visualization of phylogenetic trees|http://etetoolkit.org|
 |scikit-allel|v1.2.0|Manipulation and analysis of genomic data|https://scikit-allel.readthedocs.io/en/stable|
-|**R v3.4/v3.5/v3.6**|||
+|**R**|**v3.4/v3.5/v3.6**||
 |PopGenome|v2.6.1|Analysis of population genomic data|https://www.rdocumentation.org/packages/PopGenome/versions/2.7.1|
 
-
+Other pipelines
+---------------
+|Description|DOI|
+|:----------|:--------|
+|Annotation of transposable elements|https://doi.org/10.1371/journal.pcbi.0010022|
+|SpeedSeq: Detection of structural variants|https://doi.org/10.1038/nmeth.3505|
 
