@@ -24,11 +24,23 @@ A list of all open source software used in the analyses
 |Plink         |v1.9            |Manipulation of high-thoughput sequence data		    |http://pngu.mgh.harvard.edu/purcell/plink|
 |Blast2GO Basic|v5.2            |Functional annotation of genomic datasets		    |https://www.blast2go.com|
 |EffectorP     |v1.0	        |Prediction of fungal effector proteins from secretomes	    |http://effectorp.csiro.au|
-|SnIPRE        |download 2019-01|Inference of selection in large gene datasets		    |https://bustamantelab.stanford.edu/lab-developed-software|
+|SnIPRE        |downloaded 2019-01|Inference of selection in large gene datasets		    |https://bustamantelab.stanford.edu/lab-developed-software|
 |D-Genies      |v1.2.0          |Display of dot plots of genome alignments		    |http://dgenies.toulouse.inra.fr|
 |NUCmer        |v3              |Genome alignment					    |http://mummer.sourceforge.net|
 |DIAMOND       |v0.9.22         |Local sequence alignment				    |https://github.com/bbuchfink/diamond|
 |mstatspop     |v0.1	        |Analysis of population genomic data			    |https://github.com/CRAGENOMICA/mstatspop|
-|Twisst        |download 2018-02|Topology weighting					    |https://github.com/simonhmartin/twisst|
+|Twisst        |downloaded 2018-02|Topology weighting					    |https://github.com/simonhmartin/twisst|
+
+
+
+Languages and packages
+----------------------
+
+|python v2.7/v3.6|
+|ETE|v3|Analysis and visualization of phylogenetic trees|http://etetoolkit.org|
+|scikit-allel|v1.2.0|Manipulation and analysis of genomic data|https://scikit-allel.readthedocs.io/en/stable|
+|R v3.4/v3.5/v3.6|
+|PopGenome|v2.6.1|Analysis of population genomic data|https://www.rdocumentation.org/packages/PopGenome/versions/2.7.1|
+
 
 
