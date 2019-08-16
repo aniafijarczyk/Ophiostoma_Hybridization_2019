@@ -1,6 +1,22 @@
-> This repository includes scripts used to run the analyses and plot the figures in the manuscript: 
-> "Hybridization drives genome evolution of the Dutch Elm Disease pathogens" by Hessenauer and Fijarczyk et al.
-> Scripts are organized according to appearance in the Results section:
+Custom code used in the paper: Hybridization drives genome evolution of the Dutch Elm Disease pathogens
+-------------------------------------------------------------------------------------------------------
+
+Open source software
+--------------------
+
+All open source software used in the study is listed in _Open_source_software.md_
+
+
+Bash commands
+-------------
+
+Bash commands used to run the analyses are in the file _Bash_commands.md_
+
+
+Custom code
+-----------
+
+All custom scripts are organized in four folders according to the appearance in the Results section
 
 
 ### 01_Population_structure_and_cryptic_lineages:
