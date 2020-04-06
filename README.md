@@ -1,5 +1,5 @@
-Custom code used in the paper: [Hybridization and introgression drives genome evolution of the Dutch Elm Disease pathogens](https://www.nature.com/articles/s41559-020-1133-6?proof=trueNov) 
--------------------------------------------------------------------------------------------------------
+#### Custom code used in the paper: [Hybridization and introgression drives genome evolution of the Dutch Elm Disease pathogens](https://www.nature.com/articles/s41559-020-1133-6?proof=trueNov) 
+
 
 Open source software
 --------------------
