@@ -27,7 +27,8 @@ All custom scripts are organized in four folders according to the appearance in 
 **Figure1_plots:**
 - simulate_point_locations.R	# simulating coordinates of point labels
 - map_geo.R  			# plotting a map with strains
-- plotTree.py  			# plotting ML phylogeny
+- plotGlobe.R			# plotting picture of a globe
+- plotTree.py  			# plotting NJ phylogeny
 - plotStructure.R  		# plotting structure analysis
 - PCA_Plot.R  			# plotting PCA results
 
