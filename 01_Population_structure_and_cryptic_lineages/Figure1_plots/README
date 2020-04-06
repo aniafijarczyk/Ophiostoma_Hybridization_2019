@@ -1,7 +1,7 @@
 ### Plotting Figure 1
 
 
-a. Simulate coordinates of labels on the map
+a. Simulating coordinates of labels on the map
 
 simulate_point_locations.R
 
@@ -9,7 +9,7 @@ requirements:
 samples_locations.txt
 
 
-b. Plot of a map with strains
+b. Plotting a map with strains
 
 map_geo.R
 
@@ -19,7 +19,12 @@ simulated_coords.txt
 world_intermediate.txt
 
 
-c. Plot of ML phylogeny
+c. Plotting picture of a globe
+
+plotGlobe.R
+
+
+d. Plotting ML phylogeny
 
 plotTree.py
 
@@ -28,7 +33,7 @@ Newick_Export_ordered_root_75coll.nwk
 Species_distinction_PCA.txt
 
 
-d. Plot of structure
+e. Plotting structure
 
 plotStrcuture.R
 
@@ -39,7 +44,7 @@ Structure_genomewide_results_novoulmi_K3.csv
 Species_distinction_PCA.txt
 
 
-d-e. Plots of PCA
+f. Plotting PCA
 
 PCA_Plot.R
 
