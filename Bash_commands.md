@@ -27,7 +27,7 @@ samtools index HI.4257.001.BioOHT_97.US137_calmd.bam
 ```
 ##### Calling genotypes
 ```
-samtools mpileup -b bams_list_calmd -C50 -d 100000 -E -f Ophnu1_AssemblyScaffolds_Repeatmasked.fasta -f GQ -q 4 -g -t DP,SP,AD,ADF,ADR,INFO/AD | bcftools call -m --ploidy 1 -o SNP_samtools_allsites.vcf -O v
+samtools mpileup -b bams_list_calmd -C50 -d 100000 -E -f Ophnu1_AssemblyScaffolds_Repeatmasked.fasta -q 4 -g -t DP,SP,AD,ADF,ADR,INFO/AD | bcftools call -m -f gq --ploidy 1 -o SNP_samtools_allsites.vcf -O v
 ```
 ##### Filtering SNPs
 ```
