@@ -25,7 +25,7 @@ java -jar picard.jar MarkDuplicates I=HI.4257.001.BioOHT_97.US137_aln-pe.sorted.
 samtools calmd -ubAr -C50 HI.4257.001.BioOHT_97.US137_rmdup.bam Ophnu1_AssemblyScaffolds_Repeatmasked.fasta > HI.4257.001.BioOHT_97.US137_calmd.bam
 samtools index HI.4257.001.BioOHT_97.US137_calmd.bam
 ```
-##### Calling genotypes
+##### Calling genotypes (samtools v1.3; bcftools v1.4.1)
 ```
 samtools mpileup -b bams_list_calmd -C50 -d 100000 -E -f Ophnu1_AssemblyScaffolds_Repeatmasked.fasta -q 4 -g -t DP,SP,AD,ADF,ADR,INFO/AD | bcftools call -m -f gq --ploidy 1 -o SNP_samtools_allsites.vcf -O v
 ```
