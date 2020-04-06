@@ -93,7 +93,7 @@ All custom scripts are organized in four folders according to the appearance in 
 - ophiostoma_phenotyping_picture_analysis_function.R 	# a function to process images
 - ophiostoma_phenotyping_launch.R 			# launching a function for each picture
 
-**Modelling and plotting isolate growth in different conditions **
-- growth_virulence_modeling_Fig4_S17_S18_script.R	# plotting growth results
+**Modelling and plotting isolate growth in different conditions and virulence on apples**
+- growth_virulence_modeling_Fig4_S17_S18_script.R	# plotting growth & virulence results
 
 
