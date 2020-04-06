@@ -1,4 +1,4 @@
-Custom code used in the paper: Hybridization drives genome evolution of the Dutch Elm Disease pathogens
+Custom code used in the paper: [Hybridization and introgression drives genome evolution of the Dutch Elm Disease pathogens](https://www.nature.com/articles/s41559-020-1133-6?proof=trueNov) 
 -------------------------------------------------------------------------------------------------------
 
 Open source software
@@ -90,10 +90,10 @@ All custom scripts are organized in four folders according to the appearance in 
 
 ### 04_Phenotypic_differences_between_lineages
 **Processing pictures and extracting growth information**
-- Ophiotoma_image2shape_8pos_Area.R 	# creating a function to process images
-- launchScript.R 			# launching the function on each pictures
+- ophiostoma_phenotyping_picture_analysis_function.R 	# a function to process images
+- ophiostoma_phenotyping_launch.R 			# launching a function for each picture
 
-**Plotting isolates growth in each media and temperature**
-- fig4.R	# plotting growth results
+**Modelling and plotting isolate growth in different conditions **
+- growth_virulence_modeling_Fig4_S17_S18_script.R	# plotting growth results
 
 
