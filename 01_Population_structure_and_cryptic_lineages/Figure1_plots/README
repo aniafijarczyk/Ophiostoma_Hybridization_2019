@@ -24,12 +24,12 @@ c. Plotting picture of a globe
 plotGlobe.R
 
 
-d. Plotting ML phylogeny
+d. Plotting NJ phylogeny
 
 plotTree.py
 
 requirements:
-Newick_Export_ordered_root_75coll.nwk
+NewickExport_fasttree.nwk
 Species_distinction_PCA.txt
 
 
@@ -42,6 +42,7 @@ Structure_genomewide_results_K2.csv
 Structure_genomewide_results_novoulmi_K2.csv
 Structure_genomewide_results_novoulmi_K3.csv
 Species_distinction_PCA.txt
+plotTree_strain_order.txt
 
 
 f. Plotting PCA
