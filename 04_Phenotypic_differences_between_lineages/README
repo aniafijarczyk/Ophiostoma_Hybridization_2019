@@ -1,0 +1,19 @@
+### Scripts for extracting growth from the pictures & plotting results of isolate growth and virulence
+
+
+### Scripts for processing pictures and extracting growth information
+
+ophiostoma_phenotyping_launch.R
+
+requirements:
+ophiostoma_phenotyping_picture_analysis_function.R
+input_files/*.JPG
+
+
+### Scripts for modelling isolate growth in different conditions on plates and plotting growth and virulence (apple test) results
+
+growth_virulence_modeling_Fig4_S17_S18_script.R
+
+requirements:
+data_growth_experiment_introgression_infos.csv
+data_apple_int.txt
