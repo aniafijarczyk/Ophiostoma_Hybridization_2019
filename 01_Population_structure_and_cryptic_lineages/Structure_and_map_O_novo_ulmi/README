@@ -20,7 +20,7 @@ k3.csv				# Results of structure
 
 
 
-### Plotting strcuture barplots for different K
+### Plotting strcuture barplots in O. novo-ulmi
 
 plotStructure_novoulmi.R
 
@@ -30,4 +30,15 @@ Structure_genomewide_results_novoulmi_K3.csv 	# results of strcuture
 Structure_genomewide_results_novoulmi_K4.csv 	# results of strcuture
 Structure_genomewide_results_novoulmi_K5.csv 	# results of strcuture
 strains_pops.txt				# lineage membership
+
+
+
+### Plotting structure barplots in O. ulmi
+
+plotStructure_ulmi.R
+
+requirements:
+ulmi_k2.txt
+ulmi_k3.txt
+strains_pops.txt
 
