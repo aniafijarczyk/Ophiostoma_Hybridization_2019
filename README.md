@@ -39,7 +39,7 @@ All custom scripts are organized in four folders according to the appearance in 
 **Strcuture_and_map_O_novo_ulmi**
 - simulate_point_locations.R    # simulating coordinates of point labels
 - plotStructureMap.R		# plotting structure results for K = 3 on a map
-- plotStructure_novoulmi.R	# plotting strcuture barplots in O. novo-ulmi
+- plotStructure_novoulmi.R	# plotting structure barplots in O. novo-ulmi
 - plotStructure_ulmi.R		# plotting structure barplots in O. ulmi
 - pca_ulm_plot.R		# plotting PCA based on O. ulmi SNPs
 
