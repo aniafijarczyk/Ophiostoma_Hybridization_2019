@@ -1,4 +1,5 @@
-### Plotting results of structure analysis in O. novo-ulmi
+### Plotting results of structure analysis in O. novo-ulmi & O. ulmi
+
 
 
 ### Plotting structure results for K = 3 on a map
@@ -41,6 +42,8 @@ requirements:
 ulmi_k2.txt
 ulmi_k3.txt
 strains_pops.txt
+
+
 
 ### Plotting PCA on O. ulmi SNPs
 

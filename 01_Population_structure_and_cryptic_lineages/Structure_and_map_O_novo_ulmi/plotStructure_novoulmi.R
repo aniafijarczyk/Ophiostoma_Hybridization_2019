@@ -2,6 +2,13 @@ library(dplyr)
 library(ggplot2)
 library(gridExtra)
 
+col_ame <- colors()[501]
+col_ame1 <- "#d55e00"
+col_ame2 <- "#f0e442"
+col_nov <- "#009e73"
+col_ou <- "#0072b2"
+col4 <- "#DDA0DD"
+col5 <- "#9370DB"
 
 ### Importing structure results
 
@@ -46,17 +53,6 @@ sortedDF <- nov[order(nov[,23], nov[,6], nov[,4], nov[,5], nov[,7], nov[,8]),]
 o <- sortedDF['NameBam']
 colnames(o) <- 'row_order'
 
-### Setting colors
-
-palegreen <- colors()[517] 
-goldenrod2 <- colors()[149]
-olivedrab4 <- colors()[497]
-firebrick3 <- colors()[136]
-aquamarine4 <- colors()[12]
-dodgerblue3 <- colors()[131]
-orange3 <- colors()[501]
-khaki3 <- colors()[385]
-
 
 ### K2 plot
 
@@ -69,7 +65,7 @@ gk2$row_order <- factor(gk2$row_order, levels = as.vector(o$row_order))
 
 p2 <- ggplot(gk2) + aes(x = row_order, y = Admixture, fill = Species) +
   geom_bar(stat = 'identity', col=NA, width=1) +
-  scale_fill_manual(values = c(olivedrab4,orange3)) +
+  scale_fill_manual(values = c(col_nov,col_ame)) +
   labs(y = "K = 2") +
   theme(panel.background = element_blank(),
         panel.grid = element_blank(),
@@ -77,7 +73,8 @@ p2 <- ggplot(gk2) + aes(x = row_order, y = Admixture, fill = Species) +
         axis.title.x = element_blank(),
         legend.position = "none",
         #axis.text.x = element_text(angle=90),
-        axis.text.x = element_blank())
+        axis.text.x = element_blank(),
+        axis.title.y = element_text(size = 18))
 p2
 
 
@@ -93,7 +90,7 @@ gk3$row_order <- factor(gk3$row_order, levels = as.vector(o$row_order))
 
 p3 <- ggplot(gk3) + aes(x = row_order, y = Admixture, fill = Species) +
   geom_bar(stat = 'identity', col=NA, width=1) +
-  scale_fill_manual(values = c(firebrick3,goldenrod2,olivedrab4)) +
+  scale_fill_manual(values = c(col_ame1,col_ame2,col_nov)) +
   labs(y = "K = 3") +
   theme(panel.background = element_blank(),
         panel.grid = element_blank(),
@@ -101,7 +98,8 @@ p3 <- ggplot(gk3) + aes(x = row_order, y = Admixture, fill = Species) +
         axis.title.x = element_blank(),
         legend.position = "none",
         #axis.text.x = element_text(angle=90),
-        axis.text.x = element_blank())
+        axis.text.x = element_blank(),
+        axis.title.y = element_text(size = 18))
 p3
 
 
@@ -116,7 +114,7 @@ gk4$row_order <- factor(gk4$row_order, levels = as.vector(o$row_order))
 
 p4 <- ggplot(gk4) + aes(x = row_order, y = Admixture, fill = Species) +
   geom_bar(stat = 'identity', col=NA, width=1) +
-  scale_fill_manual(values = c('aquamarine3',firebrick3,olivedrab4,goldenrod2)) +
+  scale_fill_manual(values = c(col4,col_ame1,col_nov,col_ame2)) +
   labs(y = "K = 4") +
   theme(panel.background = element_blank(),
         panel.grid = element_blank(),
@@ -124,7 +122,8 @@ p4 <- ggplot(gk4) + aes(x = row_order, y = Admixture, fill = Species) +
         axis.title.x = element_blank(),
         legend.position = "none",
         #axis.text.x = element_text(angle=90),
-        axis.text.x = element_blank())
+        axis.text.x = element_blank(),
+        axis.title.y = element_text(size = 18))
 p4
 
 
@@ -140,14 +139,15 @@ gk5$row_order <- factor(gk5$row_order, levels = as.vector(o$row_order))
 
 p5 <- ggplot(gk5) + aes(x = row_order, y = Admixture, fill = Species) +
   geom_bar(stat = 'identity', col=NA, width=1) +
-  scale_fill_manual(values = c('aquamarine3','darkcyan',olivedrab4,goldenrod2,firebrick3)) +
+  scale_fill_manual(values = c(col4,col5,col_nov,col_ame2,col_ame1)) +
   labs(y = "K = 5") +
   theme(panel.background = element_blank(),
         panel.grid = element_blank(),
         axis.ticks = element_blank(),
         axis.title.x = element_blank(),
         legend.position = "none",
-        axis.text.x = element_blank())
+        axis.text.x = element_blank(),
+        axis.title.y = element_text(size = 18))
 p5
 
 
@@ -160,18 +160,18 @@ st$SamName <- factor(st$Name, levels = as.vector(o$row_order))
 
 pr <- ggplot(st) + aes(x = SamName, y = Stat, fill = as.factor(regcode)) +
   geom_bar(stat = 'identity', col=NA, width=1) +
-  geom_text(x = 18.5, y = 0.5, label = "North America") + 
-  geom_text(x = 51.5, y = 0.5, label = "Europe") + 
-  geom_text(x = 66.5, y = 0.5, label = "Asia",colour = "white") + 
-  geom_text(x = 71.5, y = 0.5, label = "NZ",colour = "white",angle=90) +
-  geom_text(x = 73, y = 0.5, label = "unk",angle=90) +
+  geom_text(x = 18.5, y = 0.5, label = "North America", size=8) + 
+  geom_text(x = 51.5, y = 0.5, label = "Europe", size=8) + 
+  geom_text(x = 66.5, y = 0.5, label = "Asia", size=8,colour = "white") + 
+  geom_text(x = 71.5, y = 0.5, label = "NZ",colour = "white",size=6, angle=90) +
+  geom_text(x = 73, y = 0.5, label = " ",angle=90) +
   scale_fill_manual(values = c("grey80","grey60","grey40","grey20","grey90")) +
   labs(y = "R") +
   theme(panel.background = element_blank(),
         panel.grid = element_blank(),
         axis.ticks = element_blank(),
         axis.title.x = element_blank(),
-        axis.title.y = element_text(colour = "white"),
+        axis.title.y = element_text(colour = "white", size=18),
         legend.position = "none",
         #axis.text.x = element_text(angle=90),
         axis.text.x = element_blank(),
@@ -182,16 +182,17 @@ pr
 
 pl <- ggplot(st) + aes(x = SamName, y = Stat, fill = GroupSamtools) +
   geom_bar(stat = 'identity', col=NA, width=1) +
-  scale_fill_manual(values = c(firebrick3,goldenrod2,olivedrab4)) +
+  scale_fill_manual(values = c(col_ame1,col_ame2,col_nov)) +
   scale_x_discrete(labels = st$Label) +
   labs(y = "L") +
   theme(panel.background = element_blank(),
         panel.grid = element_blank(),
         axis.ticks = element_blank(),
         axis.title.x = element_blank(),
-        axis.title.y = element_text(colour = "white"),
+        axis.title.y = element_text(colour = "white",size=18),
         legend.position = "none",
-        axis.text.x = element_text(angle=90),
+        #axis.text.x = element_text(angle=90),
+        axis.text.x = element_blank(),
         axis.text.y = element_text(colour = "white"))
 pl
 
@@ -202,7 +203,8 @@ pl
 
 grid.arrange(p2,p3,p4,p5,pr,pl,ncol=1)
 
-pdf(file="Figure_structure_regions.pdf",width=12,height=8)
-lay <- rbind(c(1),c(1),c(2),c(2),c(3),c(3),c(4),c(4),c(5),c(6),c(6))
-grid.arrange(p2,p3,p4,p5,pr,pl, ncol = 1, layout_matrix = lay)
+pdf(file="Figure_structure_regions.pdf",width=8,height=8)
+lay <- rbind(c(1),c(2),c(3),c(3),c(4),c(4),c(5),c(5),c(6),c(6))
+grid.arrange(pr,pl,p2,p3,p4,p5, ncol = 1, layout_matrix = lay)
+
 dev.off()
