@@ -1,31 +1,21 @@
 library(vcfR)
-library(ape)
-library(adegenet)
 library(ggplot2)
-library(dplyr)
-library(readxl)
-library(ggrepel)
-
 
 
 vcf <- read.vcfR("SNP_5000_ulmi.vcf", verbose = FALSE)
 x <- vcfR2genlight(vcf)
 
-x@ploidy=rep(as.integer(1),21)
+infos=read.table('strains_pops.txt',sep='\t',header=TRUE)
 
+x@ploidy=rep(as.integer(1),21)
 pca=glPca(x, parallel = F)
 2
 scatter(pca)
-
 scores=as.data.frame(pca$scores)
 scores = tibble::rownames_to_column(scores, "ID")
 
-IDs=read_xlsx("IDs.xlsx")
-infos= read.csv2("isolates_infos.csv")
-infos=infos[,4:10]
 
-d=merge(scores, IDs, by.x="ID", by.y="seq",all.x = T, all.y = F)
-d=merge(d, infos, by.x="ID_simple",by.y="ID", all.x=T, all.y=F)
+d=merge(scores,infos,by.x="ID",by.y="NameBam",all.x=T,all.y=F,sort=FALSE)
 
 p <- ggplot(d, aes(as.numeric(as.character(PC1)), as.numeric(as.character(PC2))), label=country) + 
   geom_vline(xintercept=0, color = "grey80") + 
