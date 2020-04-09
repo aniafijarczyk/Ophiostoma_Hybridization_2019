@@ -42,3 +42,10 @@ ulmi_k2.txt
 ulmi_k3.txt
 strains_pops.txt
 
+### Plotting PCA on O. ulmi SNPs
+
+pca_ulm_plot.R
+
+requirements:
+SNP_5000_ulmi.vcf
+strains_pops.txt
