@@ -1,4 +1,3 @@
-setwd("/media/anna/Volume/Ophiostoma/pop_genomics/2019_08_paper_scripts/Strcuture_and_map_O_novo_ulmi")
 source('Pipie.R', chdir = TRUE)
 library(dplyr)
 library(tidyr)
