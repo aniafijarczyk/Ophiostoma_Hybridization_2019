@@ -1,6 +1,3 @@
-# 17 april 2018
-# Strucutre pie chart on map
-setwd("/media/anna/Volume/Ophiostoma/pop_genomics/2019_04_paper_figures/Structure_pie_map")
 library(dplyr)
 source('Pipie.R', chdir = TRUE)
 
