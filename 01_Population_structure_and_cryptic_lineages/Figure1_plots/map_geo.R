@@ -7,12 +7,12 @@ library(maptools)
 
 # Setting colors
 
-novo_ulmi = "olivedrab4"
-americana = "orange3"
-ulmi = "dodgerblue3"
-himal_ulmi = "mediumpurple4" 
-ame1 = "firebrick3"
-ame2 = "goldenrod2"
+novo_ulmi = "#009e73"
+americana = "#e69f00"
+ulmi = "#0072b2"
+himal_ulmi = "#cc79a7"
+ame1 = "#d55e00"
+ame2 = "#f0e442"
 
 # Reading maps and samples
 
@@ -29,7 +29,7 @@ m <- merge(s, df, by.x = "lab", by.y = "ID", sort = FALSE)
 
 d <- m %>% filter(lab != '81' & lab != '82')
 
-pdf("World_North_col.pdf", 17, 6.5)
+pdf("World_North_col2.pdf", 17, 6.5)
 {
   map("world",xlim = c(-140, 110), ylim = c(30, 70), fill = F, col = colors()[200], type = "l")
   map.axes(xaxt = "n", yaxt = "n")
@@ -57,9 +57,9 @@ dev.off()
 
 ### Plotting New Zaeland
 
-d <- f %>% filter(lab == '81' | lab == '82')
+d <- m%>% filter(lab == '81' | lab == '82')
 
-pdf("World_NZ_col.pdf", 2.2, 5.2)
+pdf("World_NZ_col2.pdf", 2.2, 5.2)
 {
   map("world",xlim = c(166, 181), ylim = c(-48, -31), fill = F, col = colors()[200], type = "l", bg = "white")
   map.axes(xaxt = "n", yaxt = "n")
