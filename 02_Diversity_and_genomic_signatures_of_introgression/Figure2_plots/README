@@ -1,13 +1,21 @@
 ### Scripts for plotting Figure 1 (a, b and d)
 
 
-### A matrix of global and per-window distances and diversity in Ophiostoma lineages.
+### Bozplots of global and per-window distances and diversity in Ophiostoma lineages.
 
-plotMatrix.R
+plotBoxplots.R
 
 requirements:
-matrix_global_estimates.txt
-matrix_window_estimates.txt
+./data/ame1.ame2_circos_Dxy.txt
+./data/nov.ame1_circos_Dxy.txt
+./data/nov.ame2_circos_Dxy.txt
+./data/ulm.ame1_circos_Dxy.txt
+./data/ulm.ame2_circos_Dxy.txt
+./data/ulm.nov_circos_Dxy.txt
+./data/ame1_circos_tP.txt
+./data/ame2_circos_tP.txt
+./data/nov_circos_tP.txt
+./data/ulm_circos_tP.txt
 
 
 
