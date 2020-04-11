@@ -63,7 +63,7 @@ pT <- ggplot(T) +
 #pT
 
 
-### 100 SNPs windows wit >=3 SNPs in OU and ONU
+### 100 SNPs windows with >=3 SNPs in OU and ONU
 
 weights_file <- "./data/combineTwisstOutput_min3_topos.out"
 window_data_file <- "./data/combineTwisstOutput_min3_coord.out"
@@ -116,7 +116,7 @@ pT2 <- ggplot(T) +
 
 
 
-### 50 kb window
+### 50 kb windows
 
 weights_file <- "./data/combineTwisstOutput_50k_topos_head.out"
 window_data_file <- "./data/combineTwisstOutput_50k_coord.out"

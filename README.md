@@ -53,7 +53,9 @@ All custom scripts are organized in four folders according to the appearance in 
 
 **Diversity_plots_in_windows**
 - plotAngsdWindows_short_Pi_Dxy.R	# plotting tree weighting, Pi and Dxy, in windows across the genome
-- plotAngsdWindows_short_Fst_Taj.R	# plotting tree weighting, Tajima's D and Fst in windows across the genome
+- plotAngsdWindows_short_Fst.R		# plotting tree weighting and Fst in windows across the genome
+- plotAngsdWindows_short_Taj.R		# plotting tree weighting, Tajima's D and Dxy in windows across the genome
+- plotGeneDiscordancies.R		# plotting tree weighting in 100 SNP windows, filtered 100 SNP windows and 50 kb windows
 
 **Figure2_plots**
 - plotBoxplots.R	# plotting boxplots of global and per-window distances and diversity in Ophiostoma lineages
