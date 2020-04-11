@@ -58,12 +58,13 @@ pT <- ggplot(T) +
   coord_capped_cart(xlim = c(0, 32000000),bottom='both',left='both')
 #pT
 
+
 ###########################################################
 ################      PLOTTING DXY     ####################
 ###########################################################
 
 
-pairs <- c("ulm.ame1","ulm.ame2","ulm.nov")
+pairs <- c("ame1.ame2","nov.ame1","nov.ame2")
 dd <- data.frame()
 for (n in 1:length(pairs)) {
   sp1 <- strsplit(pairs[n],split='[.]')[[1]][1]
@@ -129,22 +130,21 @@ for (pair in 1:length(pairs)) {
           axis.line.x = element_line(),
           axis.line.y = element_line(),
           legend.position="None") +
-   coord_capped_cart(xlim = c(0, 32000000),bottom='both',left='both')
+    coord_capped_cart(xlim = c(0, 32000000),bottom='both',left='both')
   plot_dxy[[pair]] = p
 }
 plot_dxy[[1]]
 
 
-
 ###########################################################
-################       PLOTTING PI     ####################
+################       PLOTTING Tajima     ################
 ###########################################################
 
 
 species <- c("ame1","ame2","nov","ulm")
 dp <- data.frame()
 for (n in 1:length(species)) {
-  df <- read.table(file=paste("./data/",species[n],"_circos_tP.txt",sep=""),sep="\t",header=FALSE)
+  df <- read.table(file=paste("./data/",species[n],"_circos_Tajima.txt",sep=""),sep="\t",header=FALSE)
   colnames(df) <- c("Chr","Midpoint","Midpoint2","Stat")
   df["Species"] <- species[n]
   dp <- rbind(dp,df)
@@ -181,21 +181,22 @@ for (i in 1:nrow(dp)) {
 dp["Position"] <- R[,1]
 
 
-plot_pi = list()
+
+plot_td = list()
 for (sp in 1:length(species)) {
   SP <- gsub("ULM","OU",toupper(species[sp]))
   dp_sp <- dp %>% filter(Species == species[sp])
   p <-  ggplot(dp_sp) +
     aes(x = Position, y = Stat, fill = Species, colour = Chr) +
+    geom_hline(yintercept = 0, colour = "lightgrey") +
     geom_point(size=1) +
     scale_colour_manual(values = c("black","grey65","black","grey65","black","grey65","black","grey65")) +
     scale_x_continuous(limits = c(0, 32000000),
                        breaks=c(3468966,10346787.5,15590529,19135266.5,22269469.5,25094618,27874527,30519262.5),
                        labels = c("1","2","3","4","5","6","7","8")) +
-    scale_y_continuous(limits = c(0,0.020),breaks = c(0.0,0.010,0.020),
-                       labels = c("0.000","0.010","0.020")) +
-    #ggtitle(SP,sep=" ")) +
-    ggtitle(bquote(pi~.(SP))) +
+    scale_y_continuous(limits = c(-4.0,4.0),breaks = c(-4.0,0.0,4.0),
+                       labels = c("-4.00","0","4.00")) +
+    ggtitle(paste("Tajima's D",SP,sep=" ")) +
     theme_bw() +
     theme(axis.title=element_blank(),
           plot.title = element_text(hjust = 0.5),
@@ -206,29 +207,21 @@ for (sp in 1:length(species)) {
           axis.line.y = element_line(),
           legend.position="None") +
     coord_capped_cart(xlim = c(0, 32000000),bottom='both',left='both')
-  plot_pi[[sp]] = p
+  plot_td[[sp]] = p
 }
-plot_pi[[1]]
+
+plot_td[[1]]
 
 
 ### Plotting all graphs together
 
-pdf(file = paste("Figure_TreeWeighting_Pi_Dxy.pdf",sep=""),width=8.27,height=8)
+
+pdf(file = paste("Figure_TreeWeighting_Dxy_Tajima.pdf",sep=""),width=8.27,height=8)
 grid.arrange(arrangeGrob(pT,
-                         plot_pi[[1]],plot_pi[[2]],plot_pi[[3]],plot_pi[[4]],
                          plot_dxy[[1]],plot_dxy[[2]],plot_dxy[[3]],
+                         plot_td[[1]],plot_td[[2]],plot_td[[3]],plot_td[[4]],
                          ncol=1,
                          bottom = textGrob("Chromosome", hjust = 0.1)))
 dev.off()
-
-
-
-
-
-
-
-
-
-###########################################################################################################################
 
 

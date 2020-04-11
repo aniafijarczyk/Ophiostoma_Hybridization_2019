@@ -2,27 +2,22 @@
 
 
 
-### Plotting tree weighting, Pi and Dxy
+### Plotting tree weighting, Pi, Dxy, Fst and Tajima's D in windows
 
 plotAngsdWindows_short_Pi_Dxy.R
+plotAngsdWindows_short_Taj.R
+plotAngsdWindows_short_Fst.R
 
 requirements:
-./data/output.weights.csv  		# results of tree weighting analysis
-./data/formatBed_cumulated.tsv		# coordinates of windows for tree weighting analysis
-./data/<ame1>_circos_tP.txt		# Pi for lineage
-./data/<ame1.ame2>_circos_Dxy.txt	# Dxy for lineage
+./data/combineTwisstOutput_topos.out	# results of tree weighting analysis
+./data/combineTwisstOutput_coord.out	# coordinates of windows for tree weighting analysis
+./data/<*>_circos_tP.txt		# Pi estimates in windows for lineages
+./data/<*.*>_circos_Dxy.txt		# Dxy estimates in windows between pairs of lineage
+./data/<*.*>_circos_FstW.txt		# Fst estimates in windows between pairs of lineages
+./data/<*>_circos_Tajima.txt		# Tajima's D estimates in windows for lineages
 
 
 
-### Plotting tree weighting, Tajima's D and Fst	
-
-plotAngsdWindows_short_Fst_Taj.R
-
-requirements:
-./data/output.weights.csv  		# results of tree weighting analysis
-./data/formatBed_cumulated.tsv		# coordinates of windows for tree weighting analysis
-./data/<ame1>_circos_Tajima.txt		# Tajima for lineage
-./data/<ame1.ame2>_circos_FstW.txt	# Fst for lineage
-
+### Plotting tree weighting
 
 
