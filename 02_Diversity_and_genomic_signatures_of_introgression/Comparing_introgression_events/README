@@ -12,6 +12,17 @@ requirements:
 
 
 
+# Estimating average branch lengths between ONU and OU in each IR and performing bootstrap
+
+selectStrainsForBranchEstimationBootstrapAllOU.ipynb
+
+requirements:
+./data/Species_distinction_PCA.txt		# population information
+./data/strain_merged_all_location.bed		# coordinates of all IRs
+./raxml_trees/RAxML_bipartitions_75coll.si_*	# phylogenetic trees generated in each IR
+./fasta/si_*_*_*_*.fasta			# fasta alignments of all strains in each IR
+
+
 
 # Plotting empirical bootstrap estimates of branch length for different IRs
 
@@ -21,3 +32,12 @@ requirements:
 ./data/selectStrainsForbranchEstimationBootstrapAllOU.out	# branch length bootstrap values
 ./data/Species_distinction_PCA.txt				# population information
 ./data/regions_dataframe.txt					# coordinates of all IRs
+
+
+
+# Plotting branch lengths for rare and frequent IRs
+
+calcStats.ipynb
+
+requirements:
+./data/selectStrainsForbranchEstimationAllOU.out
