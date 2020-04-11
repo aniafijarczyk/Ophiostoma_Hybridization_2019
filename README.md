@@ -45,8 +45,10 @@ All custom scripts are organized in four folders according to the appearance in 
 
 ### 02_Diversity_and_genomic_signatures_of_introgression
 **Comparing_introgression_events**
-- plotPCA.R		# Plotting PCA for each introgressed region
-- plotBranchEstimates.R	# Plotting bootstrap values of branch length of each introgressed region
+- plotPCA.R						# Plotting PCA for each introgressed region
+- selectStrainsForBranchEstimationBootstrapAllOU.ipynb	# Estimating branch length per each IR and bootstrapping estimates
+- plotBranchEstimates.R					# Plotting bootstrap values of branch length of each introgressed region
+- calcStats.ipynb					# Comparing and plotting branch lengths between rare and frequent IRs
 
 **Diversity_and_genotype_heatmap**
 - combineDxy.py			# getting Dxy per window estimates
