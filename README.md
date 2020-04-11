@@ -44,6 +44,10 @@ All custom scripts are organized in four folders according to the appearance in 
 - pca_ulm_plot.R		# plotting PCA based on O. ulmi SNPs
 
 ### 02_Diversity_and_genomic_signatures_of_introgression
+**Comparing_introgression_events**
+- plotPCA.R		# Plotting PCA for each introgressed region
+- plotBranchEstimates.R	# Plotting bootstrap values of branch length of each introgressed region
+
 **Diversity_and_genotype_heatmap**
 - combineDxy.py			# getting Dxy per window estimates
 - convert2MajorMinor.py		# converting genotypes into major-minor allele
