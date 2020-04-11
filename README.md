@@ -56,7 +56,7 @@ All custom scripts are organized in four folders according to the appearance in 
 - plotAngsdWindows_short_Fst_Taj.R	# plotting tree weighting, Tajima's D and Fst in windows across the genome
 
 **Figure2_plots**
-- plotMatrix.R		# plotting a matrix of global and per-window distances and diversity in Ophiostoma lineages
+- plotBoxplots.R	# plotting boxplots of global and per-window distances and diversity in Ophiostoma lineages
 - plot_Dstatistic.R	# dotplot with standard errors of D-statistic
 - mk_circos.sh		# script for plotting circos chronogram
 
