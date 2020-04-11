@@ -1,0 +1,16 @@
+### Plots comparing and timing distinct introgression (OU -> ONU) events in ONU
+
+
+
+# PCA plots for distinct introgressed segments (IS)
+
+plotPCA.R
+
+requirements:
+./data/location_<*>.recode.vcf		# vcf file for each IS
+./data/Species_distinction_PCA.txt	# Population information
+
+
+
+
+# 
