@@ -1,4 +1,4 @@
-### Scripts for plotting estimates of diversity and divergence in 50 kb windows across the genome + tree weighting analysis
+### Scripts for plotting estimates of diversity and divergence in 50 kb windows across the genome + tree weighting analysis (in 100 SNP windows)
 
 
 
@@ -18,6 +18,12 @@ requirements:
 
 
 
-### Plotting tree weighting
+### Plotting tree weighting in 50 kb windows and filtered 100 SNP 
 
+plotGeneDiscordancies.R
 
+requirements:
+./data/combineTwisstOutput_min3_coord.out	# filtered 100 SNP window coordinates
+./data/combineTwisstOutput_min3_topos.out	# tree weighting results for filtered 100 SNP windows
+./data/combineTwisstOutput_50k_coord.out	# 50 kb window coordinates
+./data/combineTwisstOutput_50k_topos_head.out	# tree weighting results for 50 kb windows
