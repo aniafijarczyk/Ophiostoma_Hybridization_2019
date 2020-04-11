@@ -2,15 +2,22 @@
 
 
 
-# PCA plots for distinct introgressed segments (IS)
+# PCA plots for distinct introgressed regions (IRs)
 
 plotPCA.R
 
 requirements:
-./data/location_<*>.recode.vcf		# vcf file for each IS
+./data/location_<*>.recode.vcf		# vcf file for each IR
 ./data/Species_distinction_PCA.txt	# Population information
 
 
 
 
-# 
+# Plotting empirical bootstrap estimates of branch length for different IRs
+
+plotBranchEstimates.R
+
+requirements:
+./data/selectStrainsForbranchEstimationBootstrapAllOU.out	# branch length bootstrap values
+./data/Species_distinction_PCA.txt				# population information
+./data/regions_dataframe.txt					# coordinates of all IRs

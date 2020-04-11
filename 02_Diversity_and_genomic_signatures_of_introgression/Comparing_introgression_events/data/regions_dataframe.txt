@@ -1,0 +1,16 @@
+region	chr	start	stop	col	textcol
+1	chr1	1	400000	"grey"	black
+2	chr1	1600000	2200000	"#E69F00"	black
+3	chr2	4800000	6817711	"#56B4E9"	black
+4	chr3	1	200000	"#009E73"	black
+5	chr3	3600000	3669772	"#F0E442"	black
+6	chr4	2200000	2400000	"#0072B2"	black
+7	chr5	400000	600000	"#D55E00"	black
+8	chr5	2400000	2600000	"#CC79A7"	black
+9	chr6	400000	600000	"#E1BD6D"	black
+10	chr6	1600000	2801594	"#EABE94"	black
+11	chr7	1	200000	"#0B775E"	black
+12	chr7	2200000	2400000	"#35274A"	white
+13	chr8	600000	1200000	"#F2300F"	black
+14	chr8	2000000	2531247	"#81A88D"	black
+
