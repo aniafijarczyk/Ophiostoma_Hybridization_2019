@@ -20,11 +20,11 @@ All custom scripts are organized in four folders according to the appearance in 
 
 
 ### 01_Population_structure_and_cryptic_lineages:
-[**DAPC_analyses:**](01_Population_structure_and_cryptic_lineages/DAPC_analyses)
+[**DAPC_analyses**](01_Population_structure_and_cryptic_lineages/DAPC_analyses)
 - plotDAPC_SNP.R  # plotting DAPC analysis based on SNP variants
 - plotDAPC_CNV.R  # plotting DAPC analysis based on CNV variants
 
-[**Figure1_plots:**](01_Population_structure_and_cryptic_lineages/Figure1_plots)
+[**Figure1_plots**](01_Population_structure_and_cryptic_lineages/Figure1_plots)
 - simulate_point_locations.R	# simulating coordinates of point labels
 - map_geo.R  			# plotting a map with strains
 - plotGlobe.R			# plotting picture of a globe
@@ -88,7 +88,7 @@ All custom scripts are organized in four folders according to the appearance in 
 - mk_circos.sh	# script for plotting circos chronogram with structure in windows results
 
 ### 03_Genetic_basis_of_lineage_divergence
-[**Identification_of_ULM_ancestry**](03_Genetic_basis_of_lineage_divergence/Identification_of_ULM_ancestry)
+[**Identification_ULM_ancestry**](03_Genetic_basis_of_lineage_divergence/Identification_ULM_ancestry)
 - filter_ULMLike.py	# Identifying strains with ULM ancestry from tree topology
 - filterFasta.py	# selecting strains from fasta alignments
 
