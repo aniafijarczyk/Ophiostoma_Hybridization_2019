@@ -35,7 +35,7 @@ Species_distinction_PCA.txt
 
 e. Plotting structure
 
-plotStrcuture.R
+plotStructure.R
 
 requirements:
 Structure_genomewide_results_K2.csv
