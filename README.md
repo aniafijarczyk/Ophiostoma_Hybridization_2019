@@ -4,7 +4,7 @@
 Open source software
 --------------------
 
-All open source software used in the study is listed in _Open_source_software.md_
+All open source software used in the study is listed in [Open_source_software.md](aniafijarczyk/Ophiostoma_Hybridization_2019/Open_source_software.md)
 
 
 Bash commands
