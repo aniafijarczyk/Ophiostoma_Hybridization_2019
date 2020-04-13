@@ -10,7 +10,7 @@ All open source software used in the study is listed in [Open_source_software.md
 Bash commands
 -------------
 
-Bash commands used to run the analyses are in the file _Bash_commands.md_
+Bash commands used to run the analyses are in the file [Bash_commands.md](Bash_commands.sh)
 
 
 Custom code
@@ -20,7 +20,7 @@ All custom scripts are organized in four folders according to the appearance in 
 
 
 ### 01_Population_structure_and_cryptic_lineages:
-**DAPC_analyses:**
+[**DAPC_analyses:**](01_Population_structure_and_cryptic_lineages/DAPC_analyses)
 - plotDAPC_SNP.R  # plotting DAPC analysis based on SNP variants
 - plotDAPC_CNV.R  # plotting DAPC analysis based on CNV variants
 
