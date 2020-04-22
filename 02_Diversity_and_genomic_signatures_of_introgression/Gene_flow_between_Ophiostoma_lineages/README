@@ -16,8 +16,8 @@ USAGE:
 python runUnbiasedD_Outgr.py
 
 requirements:
-sample.recode.vcf 			# sample vcf file
-Species_distinction_PCA.txt 	# population info
+sample.recode.vcf			# sample vcf file
+Species_distinction_PCA.txt		# population info
 himalH327_HP30_OphioH327chr_1.fasta	# example fasta file with an outgroup
 
 

@@ -1,5 +1,7 @@
 library(vcfR)
 library(ggplot2)
+library(adegenet)
+library(ggrepel)
 
 
 vcf <- read.vcfR("SNP_5000_ulmi.vcf", verbose = FALSE)
