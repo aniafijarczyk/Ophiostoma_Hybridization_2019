@@ -15,7 +15,7 @@ requirements:
 ./data/<*.*>_circos_Dxy.txt		# Dxy estimates in windows between pairs of lineage
 ./data/<*.*>_circos_FstW.txt		# Fst estimates in windows between pairs of lineages
 ./data/<*>_circos_Tajima.txt		# Tajima's D estimates in windows for lineages
-
+plot_twisst.R				# plotting functions
 
 
 ### Plotting tree weighting in 50 kb windows and filtered 100 SNP 
@@ -23,7 +23,10 @@ requirements:
 plotGeneDiscordancies.R
 
 requirements:
+./data/combineTwisstOutput_coord.out		# coordinates of 100 SNP windows for tree weighting analysis
+./data/combineTwisstOutput_topos.out            # results of tree weighting analysis for 100 SNP windows
 ./data/combineTwisstOutput_min3_coord.out	# filtered 100 SNP window coordinates
 ./data/combineTwisstOutput_min3_topos.out	# tree weighting results for filtered 100 SNP windows
 ./data/combineTwisstOutput_50k_coord.out	# 50 kb window coordinates
 ./data/combineTwisstOutput_50k_topos_head.out	# tree weighting results for 50 kb windows
+plot_twisst.R					# plotting functions
